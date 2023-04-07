@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href=".\CSS\bootstrap.min.css" rel="stylesheet"> 
+</head>
+<body>
+  <header class="visually-hidden">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">RentaFair</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Proposer un bien</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Poster un avis
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Propriétaire</a>
+              <a class="dropdown-item" href="#">Locataire</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Investir</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Entrez un code postal" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher un bien</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="jumbotron-hero p-5 text-white rounded text-center bg-secondary">
+        <h1 class="text-center text-white rounded">Finis les taudis !</h1>
+        <p>Rééquilibrez les rapports de force entre propriétaires et locataires</p>
+        <button type="button" class="btn btn-warning pr-2">Je cherche un appart</button>
+        <button type="button" class="btn btn-light pl-2">Je loue un appart</button>
+      </div>          
+    </div>
+    <div class="text-center text-white fs-1 pt-3">RentaFair en 3 points</div>
+    <div class="row text-center">
+      <div class="col m-5 pl-5">
+        <div class="card text-center border-0 mb-4">
+          <div class="card-title border-0"><img src="./Images/cher.jpg" height="200px" width="260px">
+          </div> 
+          <div class="card-body">
+            <h1 class="text-center">Finies les asymétries !</h1>
+            <p class="card-text">Un marché éclaté et des asymétries d'information ouvrent la porte aux marchands de sommeil et autres truands de l'immobilier</p>
+          </div>     
+        </div>
+      </div>
+      <div class="col m-5 pl-4 pr-4">
+        <div class="card text-center border-0 mb-4">
+          <div class="card-title border-0"><img src="./Images/plaza.jpeg" height="200px" width="260px"> 
+          </div>
+          <div class="card-body">
+            <h1 class="text-center">Finis les intermédiaires !</h1>
+            <p class="card-text">Plus d'agences aux pratiques douteuses = un meilleur retour sur investissement pour les propriétaires et des locataires plus confiants</p>
+          </div>
+        </div>
+      </div>
+      <div class="col m-5 pr5-5">
+        <div class="card text-center border-0 mb-4">    
+          <div class="card-title border-0">
+            <img src="./Images/fridgebro.jpg" height="200px" width="260px"> 
+          </div>
+          <div class="card-body">
+            <h1 class="text-center">Finis les abus !</h1>
+            <p class="card-text">Tout locataire destructeur ou mauvais payeur est automatiquement exclu de la plateforme, tout propriétaire véreux ou logement indigne est signalé</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+    
+</body>
+</html>
